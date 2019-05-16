@@ -28,7 +28,7 @@ public class TestUtil extends TestBase {
 	static Sheet sheet;
 	static JavascriptExecutor js;
 
-	public void switchToFrame() {
+	public void switchToFrame() { 
 		driver.switchTo().frame("mainpanel");
 	}
 
